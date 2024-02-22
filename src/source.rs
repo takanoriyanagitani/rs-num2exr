@@ -10,7 +10,7 @@ where
     T: Copy,
 {
     let x: usize = pos.0;
-    let y: usize = pos.0;
+    let y: usize = pos.1;
     let wy: usize = width * y;
     let ix: usize = wy + x;
     getter(ix).unwrap_or(alt)
