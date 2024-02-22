@@ -2,6 +2,10 @@
 name = "num2exr"
 version = "0.1.0"
 edition = "2021"
+description = "Creates an exr image from numbers"
+license = "Apache-2.0"
+documentation = "https://docs.rs/crate/num2exr"
+repository = "https://github.com/takanoriyanagitani/rs-num2exr"
 
 [lints.rust]
 unsafe_code = "forbid"
